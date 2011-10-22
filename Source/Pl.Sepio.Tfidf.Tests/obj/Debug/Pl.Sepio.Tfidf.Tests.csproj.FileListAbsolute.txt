@@ -1,0 +1,11 @@
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\Pl.Sepio.Tfidf.Tests.dll
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\Pl.Sepio.Tfidf.Tests.pdb
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\nunit.framework.dll
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\nunit.mocks.dll
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\Pl.Sepio.Tfidf.dll
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\pnunit.framework.dll
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\Pl.Sepio.Tfidf.pdb
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\nunit.framework.xml
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\Pl.Sepio.Tfidf.Tests.dll
+D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\Pl.Sepio.Tfidf.Tests.pdb
