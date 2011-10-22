@@ -9,3 +9,6 @@ D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\Pl.Sepio.Tfidf.pd
 D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\bin\Debug\nunit.framework.xml
 D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\Pl.Sepio.Tfidf.Tests.dll
 D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\Pl.Sepio.Tfidf.Tests.pdb
+D:\MTP\studia-msc-ezi-tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\MTP\studia-msc-ezi-tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\Pl.Sepio.Tfidf.Tests.dll
+D:\MTP\studia-msc-ezi-tfidf\Source\Pl.Sepio.Tfidf.Tests\obj\Debug\Pl.Sepio.Tfidf.Tests.pdb

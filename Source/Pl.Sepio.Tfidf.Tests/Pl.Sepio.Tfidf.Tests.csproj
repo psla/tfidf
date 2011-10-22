@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="BagOfWordsTests.cs" />
     <Compile Include="DocumentExtractorTests.cs" />
+    <Compile Include="DocumentStemmerTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
