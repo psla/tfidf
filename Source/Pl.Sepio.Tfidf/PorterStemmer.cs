@@ -2,19 +2,6 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("")]
-[assembly: AssemblyDescription("Porter stemmer in CSharp")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-[assembly: AssemblyVersion("1.4")]
-[assembly: AssemblyKeyFile("keyfile.snk")]
-[assembly: AssemblyDelaySign(false)]
-[assembly: AssemblyKeyName("")]
-
 namespace Pl.Sepio.Tfidf
 {
     /*
