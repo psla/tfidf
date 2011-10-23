@@ -6,6 +6,11 @@ namespace Pl.Sepio.Tfidf
     {
         private readonly IDictionary<string, uint> _wordCount = new Dictionary<string, uint>();
 
+        /// <summary>
+        /// Words, that are defined in this document
+        /// </summary>
+        public IEnumerable<string> Words { get { return _wordCount.Keys; } }
+
         public BagOfWords(Document document)
         {
             foreach (string word in document.Words)

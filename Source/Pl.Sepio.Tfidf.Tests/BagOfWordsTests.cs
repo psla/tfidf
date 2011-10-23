@@ -14,5 +14,17 @@ namespace Pl.Sepio.Tfidf.Tests
             Assert.That(bagOfWords.Count("other"), Is.EqualTo(1));
             Assert.That(bagOfWords.Count("nonexisting"), Is.EqualTo(0));
         }
+        
+        [Test]
+        public void ProvidesAllWords()
+        {
+            var document = new Document(new[] { "one", "two", "other", "two" });
+            var bagOfWords = new BagOfWords(document);
+
+            Assert.That(bagOfWords.Words, Contains.Item("one"));
+            Assert.That(bagOfWords.Words, Contains.Item("two"));
+            Assert.That(bagOfWords.Words, Contains.Item("other"));
+            CollectionAssert.DoesNotContain(bagOfWords.Words, "nonexisting");
+        }
     }
 }

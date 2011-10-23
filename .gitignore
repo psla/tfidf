@@ -5,3 +5,4 @@
 bin/
 _(r|R)e(s|S)harper*/
 *resharper*
+obj

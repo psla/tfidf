@@ -1,7 +1,0 @@
-D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf\bin\Debug\Pl.Sepio.Tfidf.dll
-D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf\bin\Debug\Pl.Sepio.Tfidf.pdb
-D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf\obj\Debug\ResolveAssemblyReference.cache
-D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf\obj\Debug\Pl.Sepio.Tfidf.dll
-D:\projekty\studia\tfidf\Source\Pl.Sepio.Tfidf\obj\Debug\Pl.Sepio.Tfidf.pdb
-D:\MTP\studia-msc-ezi-tfidf\Source\Pl.Sepio.Tfidf\obj\Debug\ResolveAssemblyReference.cache
-D:\MTP\studia-msc-ezi-tfidf\Source\Pl.Sepio.Tfidf\obj\Debug\Pl.Sepio.Tfidf.dll
