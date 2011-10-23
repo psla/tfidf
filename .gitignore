@@ -1,0 +1,7 @@
+*.swp
+*~
+*.swo
+*.suo
+bin/
+_(r|R)e(s|S)harper*/
+*resharper*
