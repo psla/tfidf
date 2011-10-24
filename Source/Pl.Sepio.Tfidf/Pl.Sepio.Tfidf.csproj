@@ -51,6 +51,7 @@
     <Compile Include="IStemmerInterface.cs" />
     <Compile Include="PlainDocumentsExtractor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TermsCollection.cs" />
     <Compile Include="Tf.cs" />
   </ItemGroup>
   <ItemGroup />
