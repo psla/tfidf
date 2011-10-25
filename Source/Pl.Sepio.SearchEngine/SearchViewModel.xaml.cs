@@ -36,7 +36,7 @@ namespace Pl.Sepio.SearchEngine
         private void PerformSearch()
         {
             SearchResults.Clear();
-            var documents = _tfIdfIndexer.Search(PlainDocumentsExtractor.Extract(Query)).ToList();
+            var documents = _tfIdfIndexer.Search(PlainDocumentsExtractor.Extract(Query.ToLowerInvariant())).ToList();
             foreach (var searchResult in documents)
             {
                 SearchResults.Add(searchResult);
