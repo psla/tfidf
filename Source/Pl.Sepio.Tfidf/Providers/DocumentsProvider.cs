@@ -34,7 +34,7 @@ namespace Pl.Sepio.Tfidf.Providers
                 documents.Add(document);
             }
 
-            return documents.Select(x => new ExtendedDocument(x[0], string.Join(" ", x.Skip(1)), PlainDocumentsExtractor.Extract(string.Join(" ", x))));
+            return documents.Select(x => new ExtendedDocument(x[0], string.Join(" ", x.Skip(1)), PlainDocumentsExtractor.Extract(string.Join(" ", x).ToLowerInvariant())));
         }
     }
 }
