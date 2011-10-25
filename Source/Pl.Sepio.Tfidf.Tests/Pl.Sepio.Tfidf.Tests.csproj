@@ -55,6 +55,7 @@
     <Compile Include="BagOfWordsTests.cs" />
     <Compile Include="DistanceTests.cs" />
     <Compile Include="DocumentExtractorTests.cs" />
+    <Compile Include="DocumentsProviderTests.cs" />
     <Compile Include="DocumentStemmerTests.cs" />
     <Compile Include="IdfTests.cs" />
     <Compile Include="ProbabilityMatrixTests.cs" />
@@ -75,7 +76,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
+    <Content Include="res\Documents.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

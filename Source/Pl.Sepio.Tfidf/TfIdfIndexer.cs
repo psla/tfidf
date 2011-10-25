@@ -5,7 +5,6 @@ namespace Pl.Sepio.Tfidf
 {
     public class TfIdfIndexer
     {
-        private readonly IEnumerable<Document> _documents;
         private readonly Idf _idf;
         private readonly ProbabilityMatrixCalculator _probabilityMatrixCalculator = new ProbabilityMatrixCalculator();
         private readonly TermsCollection _termsCollection;
@@ -13,7 +12,6 @@ namespace Pl.Sepio.Tfidf
 
         public TfIdfIndexer(IEnumerable<Document> documents)
         {
-            _documents = documents;
             _idf = new Idf(documents.Select(x => new BagOfWords(x)));
             _tfIdfWithDocuments =
                 documents.Select(x => new TfIdfWithDocument(new TfIdf(new Tf(new BagOfWords(x)), _idf), x));
@@ -23,6 +21,11 @@ namespace Pl.Sepio.Tfidf
             {
                 _termsCollection.AddDocument(document);
             }
+        }
+
+        public TfIdfIndexer(IEnumerable<Document> documents, TermsCollection termsCollection) : this(documents)
+        {
+            _termsCollection = termsCollection;
         }
 
         public IEnumerable<SearchResult> Search(Document query)

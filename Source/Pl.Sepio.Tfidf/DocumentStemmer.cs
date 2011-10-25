@@ -15,8 +15,8 @@ namespace Pl.Sepio.Tfidf
         {
             if (document == null) throw new ArgumentNullException("document");
 
-            var words= new List<string>();
-            foreach (var word in document.Words)
+            var words = new List<string>();
+            foreach (string word in document.Words)
             {
                 words.Add(stemmerInterface.StemTerm(word));
             }

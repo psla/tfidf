@@ -5,7 +5,7 @@ namespace Pl.Sepio.Tfidf
         /// <summary>
         /// Document which is search result
         /// </summary>
-        public Document Document { get; private set; }
+        public IDocument Document { get; private set; }
 
         /// <summary>
         /// Chance that document matches query

@@ -9,48 +9,157 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="6" />
-      <Item value="Document`0" priority="7" />
-      <Item value="document" priority="3" />
-      <Item value="string" priority="1" />
-      <Item value="new" priority="13" />
-      <Item value="List&lt;string&gt;" priority="0" />
-      <Item value="foreach" priority="1" />
-      <Item value="words" priority="2" />
-      <Item value="IStemmerInterface`0" priority="1" />
-      <Item value="stemmerInterface" priority="1" />
+      <Item value="public" priority="17" />
+      <Item value="Document`0" priority="20" />
+      <Item value="document" priority="12" />
+      <Item value="string" priority="13" />
+      <Item value="new" priority="83" />
+      <Item value="List&lt;string&gt;" priority="2" />
+      <Item value="foreach" priority="10" />
+      <Item value="words" priority="3" />
+      <Item value="IStemmerInterface`0" priority="4" />
+      <Item value="stemmerInterface" priority="2" />
       <Item value="word" priority="2" />
-      <Item value="return" priority="2" />
-      <Item value="Document" priority="0" />
-      <Item value="private" priority="0" />
-      <Item value="class" priority="0" />
-      <Item value="s" priority="0" />
-      <Item value="Test" priority="1" />
-      <Item value="void" priority="4" />
-      <Item value="PairwiseAttribute`0" priority="0" />
-      <Item value="var" priority="4" />
-      <Item value="DocumentStemmer`0" priority="1" />
+      <Item value="return" priority="11" />
+      <Item value="Document" priority="3" />
+      <Item value="private" priority="4" />
+      <Item value="class" priority="1" />
+      <Item value="s" priority="1" />
+      <Item value="Test" priority="7" />
+      <Item value="void" priority="14" />
+      <Item value="PairwiseAttribute`0" priority="2" />
+      <Item value="var" priority="30" />
+      <Item value="DocumentStemmer`0" priority="3" />
       <Item value="FakeStemmer`0" priority="0" />
-      <Item value="CollectionAssert`0" priority="1" />
-      <Item value="stemmedDocument" priority="0" />
-      <Item value="Tests" priority="1" />
+      <Item value="CollectionAssert`0" priority="4" />
+      <Item value="stemmedDocument" priority="1" />
+      <Item value="Tests" priority="3" />
       <Item value="List`0" priority="0" />
-      <Item value="TermsCollection" priority="0" />
-      <Item value="termsCollection" priority="4" />
-      <Item value="document1" priority="0" />
-      <Item value="document2" priority="0" />
-      <Item value="Assert`0" priority="1" />
-      <Item value="Is`0" priority="1" />
+      <Item value="TermsCollection" priority="1" />
+      <Item value="termsCollection" priority="17" />
+      <Item value="document1" priority="1" />
+      <Item value="document2" priority="1" />
+      <Item value="Assert`0" priority="12" />
+      <Item value="Is`0" priority="5" />
       <Item value="HashSet" priority="0" />
       <Item value="HashSet&lt;string&gt;" priority="0" />
-      <Item value="_words" priority="1" />
-      <Item value="IEnumerable" priority="0" />
+      <Item value="_words" priority="2" />
+      <Item value="IEnumerable" priority="5" />
+      <Item value="Tfidf" priority="0" />
+      <Item value="document3" priority="1" />
+      <Item value="document4" priority="0" />
+      <Item value="tfIdf" priority="2" />
+      <Item value="ctor" priority="6" />
+      <Item value="double" priority="3" />
+      <Item value="SearchResult`0" priority="3" />
+      <Item value="result" priority="0" />
+      <Item value="Idf`0" priority="1" />
+      <Item value="documents" priority="8" />
+      <Item value="BagOfWords`0" priority="0" />
+      <Item value="Tf`0" priority="4" />
+      <Item value="BagOfWords" priority="3" />
+      <Item value="Mock" priority="2" />
+      <Item value="idf" priority="1" />
+      <Item value="It`0" priority="5" />
+      <Item value="tf" priority="1" />
+      <Item value="TermsCollection`0" priority="7" />
+      <Item value="Terms" priority="0" />
+      <Item value="this" priority="1" />
+      <Item value="terms" priority="1" />
+      <Item value="_tf" priority="0" />
+      <Item value="_idf" priority="2" />
+      <Item value="term" priority="1" />
+      <Item value="ITf`0" priority="1" />
+      <Item value="TfIdf`0" priority="4" />
+      <Item value="sum" priority="2" />
+      <Item value="Math" priority="0" />
+      <Item value="Math`0" priority="1" />
+      <Item value="ITermWeightRepresentation" priority="0" />
+      <Item value="termWeightRepresentation" priority="1" />
+      <Item value="DistanceTests`0" priority="0" />
+      <Item value="distanceCalculator" priority="2" />
+      <Item value="actualDistance" priority="0" />
+      <Item value="ITermWeightRepresentation`0" priority="1" />
+      <Item value="queryRepresentation" priority="4" />
+      <Item value="documentRepresentation" priority="4" />
+      <Item value="DistanceCalculator`0" priority="1" />
+      <Item value="queryDistance" priority="2" />
+      <Item value="probabilityMatrix" priority="0" />
+      <Item value="probability" priority="1" />
+      <Item value="readonly" priority="0" />
+      <Item value="DistanceCalculator" priority="0" />
+      <Item value="_distanceCalculator" priority="0" />
+      <Item value="documentDistance" priority="1" />
+      <Item value="ProbabilityMatrixCalculator`0" priority="0" />
+      <Item value="ProbabilityMatrixCalculator" priority="0" />
+      <Item value="_probabilityMatrixCalculator" priority="1" />
+      <Item value="query" priority="1" />
+      <Item value="queryTfIdf" priority="0" />
+      <Item value="_tfIdf" priority="0" />
+      <Item value="_termsCollection" priority="3" />
+      <Item value="TfIdfWithDocument`0" priority="1" />
+      <Item value="List" priority="5" />
+      <Item value="List&lt;SearchResult&gt;" priority="0" />
+      <Item value="results" priority="1" />
+      <Item value="SearchResult" priority="0" />
+      <Item value="tfIdfWithDocument" priority="0" />
+      <Item value="filename" priority="4" />
+      <Item value="if" priority="4" />
+      <Item value="File" priority="2" />
+      <Item value="File`0" priority="2" />
+      <Item value="throw" priority="1" />
+      <Item value="ArgumentException" priority="1" />
+      <Item value="documentStemmer" priority="0" />
+      <Item value="_stemmerInterface" priority="0" />
+      <Item value="DocumentsProvider" priority="0" />
+      <Item value="documentsProvider" priority="0" />
+      <Item value="AppDomain" priority="0" />
+      <Item value="documentsPath" priority="3" />
+      <Item value="FileStyleUriParser`0" priority="0" />
+      <Item value="List&lt;List&lt;string&gt;&gt;" priority="0" />
+      <Item value="line" priority="1" />
+      <Item value="else" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="baseDocument" priority="0" />
+      <Item value="ExtendedDocument`0" priority="0" />
+      <Item value="PlainDocumentsExtractor`0" priority="3" />
+      <Item value="TfIdfIndexer`0" priority="1" />
+      <Item value="_tfIdfWithDocuments" priority="0" />
+      <Item value="TfIdf" priority="0" />
+      <Item value="RowDefinition`0" priority="0" />
+      <Item value="DataContextProperty" priority="0" />
+      <Item value="DataContext" priority="0" />
+      <Item value="ICommand" priority="0" />
+      <Item value="Action" priority="1" />
+      <Item value="action" priority="0" />
+      <Item value="_action" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="TermsProvider" priority="0" />
+      <Item value="NullStemmer" priority="0" />
+      <Item value="filepath" priority="0" />
+      <Item value="Path" priority="0" />
+      <Item value="AppDomain`0" priority="0" />
+      <Item value="RelayCommand`0" priority="0" />
+      <Item value="DocumentsProvider`0" priority="0" />
+      <Item value="_tfIdfIndexer" priority="1" />
+      <Item value="ObservableCollection" priority="0" />
+      <Item value="IDocument`0" priority="0" />
+      <Item value="Documents" priority="0" />
+      <Item value="ObservableCollection&lt;IDocument&gt;" priority="0" />
+      <Item value="ResultDocuments" priority="1" />
+      <Item value="Query" priority="1" />
+      <Item value="searchResult" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Document">
-      <Item value="Words" priority="2" />
+      <Item value="Words" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
-      <Item value="Add`0" priority="0" />
+      <Item value="Add`0" priority="4" />
+      <Item value="OrderBy`2" priority="0" />
+      <Item value="OrderByDescending`2" priority="0" />
+      <Item value="Count" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Skip`1" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.IStemmerInterface">
       <Item value="StemTerm`0" priority="0" />
@@ -59,60 +168,193 @@
       <Item value="Length" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Int32">
-      <Item value="ToString`0" priority="0" />
+      <Item value="ToString`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Pl.Sepio.Tfidf.DocumentStemmer">
-      <Item value="StemDocument`0" priority="0" />
+      <Item value="StemDocument`0" priority="1" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.CollectionAssert">
-      <Item value="AreEqual`0" priority="1" />
+      <Item value="AreEqual`0" priority="2" />
+      <Item value="IsOrdered`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.TermsCollection">
-      <Item value="AddDocument`0" priority="1" />
+      <Item value="AddDocument`0" priority="2" />
       <Item value="ContainsTerm`0" priority="0" />
-      <Item value="Terms" priority="0" />
+      <Item value="Terms" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
-      <Item value="That`0" priority="1" />
+      <Item value="That`0" priority="9" />
+      <Item value="AreEqual`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.Is">
       <Item value="True" priority="0" />
       <Item value="False" priority="0" />
+      <Item value="EqualTo`0" priority="3" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.HashSet`1">
-      <Item value="Add`0" priority="0" />
+      <Item value="Add`0" priority="1" />
       <Item value="Contains`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="1" />
+      <Item value="Select`2" priority="3" />
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="Join`4" priority="1" />
+      <Item value="Concat`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.SearchResult">
+      <Item value="Document" priority="0" />
+      <Item value="Probability" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Setup`1" priority="5" />
+      <Item value="Object" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.IIdf">
+      <Item value="Value`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Moq.It">
+      <Item value="Is`1" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.ITf">
+      <Item value="WordWeight`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`16" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="PI" priority="0" />
+      <Item value="Sqrt`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.TfIdf">
+      <Item value="Value`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.ITermWeightRepresentation">
+      <Item value="TermWeight`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Tests.DistanceCalculator">
+      <Item value="CalculateDistance`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.DistanceCalculator">
+      <Item value="CalculateDistance`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.ProbabilityMatrixCalculator">
+      <Item value="CalculateProbability`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.TfIdfIndexer+TfIdfWithDocument">
+      <Item value="TfIdf" priority="0" />
+      <Item value="Document" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="1" />
+      <Item value="ReadAllLines`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CurrentDomain" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="BaseDirectory" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="0" />
+      <Item value="Empty" priority="1" />
+      <Item value="Join`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.IDocument">
+      <Item value="Words" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Pl.Sepio.Tfidf.PlainDocumentsExtractor">
+      <Item value="Extract`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Providers.ExtendedDocument">
+      <Item value="Content" priority="1" />
+      <Item value="Words" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.Grid">
+      <Item value="RowDefinitions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Providers.TermsProvider">
+      <Item value="LoadFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Providers.DocumentsProvider">
+      <Item value="Read`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.TfIdfIndexer">
+      <Item value="Search`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
+      <Item value="Add`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="464" fromTop="13" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="3254" fromTop="1" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="174" fromTop="7" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:SearchResult.cs" caret="286" fromTop="7" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Tf.cs" caret="27" fromTop="1" />
       <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:IdfTests.cs" caret="1014" fromTop="22" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="397" fromTop="15" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="750" fromTop="20" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="426" fromTop="17" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:IIdf.cs" caret="93" fromTop="4" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Idf.cs" caret="0" fromTop="0" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:ITermWeightRepresentation.cs" caret="105" fromTop="4" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TfIdfMeasure.cs" caret="1036" fromTop="25" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:Readme.txt" caret="63" fromTop="1" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DistanceCalculator.cs" caret="522" fromTop="17" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DistanceTests.cs" caret="617" fromTop="14" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:ProbabilityMatrixTests.cs" caret="1459" fromTop="27" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:ProbabilityMatrixCalculator.cs" caret="982" fromTop="21" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TfIdfIntegration.cs" caret="766" fromTop="18" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="522" fromTop="16" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:NullStemmer.cs" caret="177" fromTop="8" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="2797" fromTop="24" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:IStemmerInterface.cs" caret="50" fromTop="2" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="119" fromTop="6" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:TermsProvider.cs" caret="0" fromTop="0" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Document.cs" caret="147" fromTop="7" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/d:res/f:Documents.txt" caret="41" fromTop="3" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:ExtendedDocument.cs" caret="286" fromTop="7" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="535" fromTop="17" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TfIdfIndexer.cs" caret="1093" fromTop="28" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TfIdf.cs" caret="423" fromTop="12" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="863" fromTop="28" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="1" fromTop="0" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="442" fromTop="21" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1813" fromTop="45" />
     </RecentFiles>
     <RecentEdits>
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="21312" fromTop="30" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="21312" fromTop="575" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="21312" fromTop="721" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="3209" fromTop="13" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="882" fromTop="23" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="803" fromTop="6" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="464" fromTop="13" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="803" fromTop="30" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:IdfTests.cs" caret="1043" fromTop="22" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="716" fromTop="18" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="12" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="13" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="7" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="20" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="31" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="271" fromTop="9" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="980" fromTop="21" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="1468" fromTop="34" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="1748" fromTop="22" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:TermsProvider.cs" caret="0" fromTop="0" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/d:res/f:Documents.txt" caret="129" fromTop="9" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1215" fromTop="4" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1183" fromTop="16" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="724" fromTop="22" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="832" fromTop="22" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Document.cs" caret="337" fromTop="12" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Document.cs" caret="147" fromTop="7" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="207" fromTop="8" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1182" fromTop="23" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:ExtendedDocument.cs" caret="263" fromTop="7" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/d:res/f:Documents.txt" caret="24" fromTop="1" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="2038" fromTop="36" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1157" fromTop="23" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="1103" fromTop="30" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TfIdfIndexer.cs" caret="1093" fromTop="28" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="779" fromTop="13" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="24" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="216" fromTop="9" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="354" fromTop="16" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="442" fromTop="21" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="34" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="31" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="34" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="10" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="27" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="717" fromTop="11" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1316" fromTop="22" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1627" fromTop="31" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1807" fromTop="45" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

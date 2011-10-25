@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Pl.Sepio.Tfidf
 {
-    public class Document
+    public class Document : IDocument
     {
         public Document(IEnumerable<string> words)
         {

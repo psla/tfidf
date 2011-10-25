@@ -13,11 +13,17 @@ namespace Pl.Sepio.Tfidf
             _documents = new List<BagOfWords>(documents);
         }
 
+        #region IIdf Members
+
         public double Value(string term)
         {
             if (term == null) throw new ArgumentNullException("term");
-            var documentsMatching = _documents.Where(x => x.Count(term) > 0).Count();
-            return Math.Log(_documents.Count/(double)documentsMatching);
+            int documentsMatching = _documents.Where(x => x.Count(term) > 0).Count();
+            if (documentsMatching == 0)
+                return 0;
+            return Math.Log(_documents.Count/(double) documentsMatching);
         }
+
+        #endregion
     }
 }
