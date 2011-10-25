@@ -9,33 +9,45 @@
   </SettingsComponent>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="public" priority="1" />
-      <Item value="Document`0" priority="2" />
-      <Item value="document" priority="2" />
-      <Item value="string" priority="0" />
-      <Item value="new" priority="6" />
+      <Item value="public" priority="6" />
+      <Item value="Document`0" priority="7" />
+      <Item value="document" priority="3" />
+      <Item value="string" priority="1" />
+      <Item value="new" priority="13" />
       <Item value="List&lt;string&gt;" priority="0" />
-      <Item value="foreach" priority="0" />
-      <Item value="words" priority="1" />
+      <Item value="foreach" priority="1" />
+      <Item value="words" priority="2" />
       <Item value="IStemmerInterface`0" priority="1" />
       <Item value="stemmerInterface" priority="1" />
-      <Item value="word" priority="1" />
-      <Item value="return" priority="1" />
+      <Item value="word" priority="2" />
+      <Item value="return" priority="2" />
       <Item value="Document" priority="0" />
       <Item value="private" priority="0" />
       <Item value="class" priority="0" />
       <Item value="s" priority="0" />
-      <Item value="Test" priority="0" />
-      <Item value="void" priority="0" />
+      <Item value="Test" priority="1" />
+      <Item value="void" priority="4" />
       <Item value="PairwiseAttribute`0" priority="0" />
-      <Item value="var" priority="1" />
+      <Item value="var" priority="4" />
       <Item value="DocumentStemmer`0" priority="1" />
       <Item value="FakeStemmer`0" priority="0" />
-      <Item value="CollectionAssert`0" priority="0" />
+      <Item value="CollectionAssert`0" priority="1" />
       <Item value="stemmedDocument" priority="0" />
+      <Item value="Tests" priority="1" />
+      <Item value="List`0" priority="0" />
+      <Item value="TermsCollection" priority="0" />
+      <Item value="termsCollection" priority="4" />
+      <Item value="document1" priority="0" />
+      <Item value="document2" priority="0" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="Is`0" priority="1" />
+      <Item value="HashSet" priority="0" />
+      <Item value="HashSet&lt;string&gt;" priority="0" />
+      <Item value="_words" priority="1" />
+      <Item value="IEnumerable" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Document">
-      <Item value="Words" priority="1" />
+      <Item value="Words" priority="2" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
       <Item value="Add`0" priority="0" />
@@ -53,7 +65,23 @@
       <Item value="StemDocument`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@NUnit.Framework.CollectionAssert">
-      <Item value="AreEqual`0" priority="0" />
+      <Item value="AreEqual`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.TermsCollection">
+      <Item value="AddDocument`0" priority="1" />
+      <Item value="ContainsTerm`0" priority="0" />
+      <Item value="Terms" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="True" priority="0" />
+      <Item value="False" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.HashSet`1">
+      <Item value="Add`0" priority="0" />
+      <Item value="Contains`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
@@ -61,6 +89,9 @@
       <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="464" fromTop="13" />
       <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="3254" fromTop="1" />
       <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="174" fromTop="7" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:IdfTests.cs" caret="1014" fromTop="22" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="397" fromTop="15" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="750" fromTop="20" />
     </RecentFiles>
     <RecentEdits>
       <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="21312" fromTop="30" />
@@ -71,6 +102,17 @@
       <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="803" fromTop="6" />
       <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="464" fromTop="13" />
       <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="803" fromTop="30" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:IdfTests.cs" caret="1043" fromTop="22" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="716" fromTop="18" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="12" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="13" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="7" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="20" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="917" fromTop="31" />
+      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="271" fromTop="9" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="980" fromTop="21" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="1468" fromTop="34" />
+      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TermsCollectionTests.cs" caret="1748" fromTop="22" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>

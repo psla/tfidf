@@ -6,6 +6,18 @@ namespace Pl.Sepio.Tfidf
     {
         private readonly HashSet<string> _words = new HashSet<string>();
 
+        public TermsCollection()
+        {
+        }
+
+        public TermsCollection(IEnumerable<string> terms) : this()
+        {
+            foreach (string term in terms)
+            {
+                _words.Add(term);
+            }
+        }
+
         /// <summary>
         /// Returns all terms that exists in documents collection
         /// </summary>

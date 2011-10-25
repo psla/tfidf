@@ -44,15 +44,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BagOfWords.cs" />
+    <Compile Include="DistanceCalculator.cs" />
     <Compile Include="Idf.cs" />
+    <Compile Include="IIdf.cs" />
+    <Compile Include="ITermWeightRepresentation.cs" />
     <Compile Include="PorterStemmer.cs" />
     <Compile Include="Document.cs" />
     <Compile Include="DocumentStemmer.cs" />
     <Compile Include="IStemmerInterface.cs" />
     <Compile Include="PlainDocumentsExtractor.cs" />
+    <Compile Include="ProbabilityMatrixCalculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchResult.cs" />
     <Compile Include="TermsCollection.cs" />
     <Compile Include="Tf.cs" />
+    <Compile Include="TfIdf.cs" />
+    <Compile Include="TfIdfIndexer.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

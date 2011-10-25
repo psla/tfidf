@@ -15,9 +15,9 @@ namespace Pl.Sepio.Tfidf.Tests
                                                                  "fruit", 
                                                              }));
             var tf = new Tf(bagOfWords);
-            Assert.AreEqual(0.33333333, tf.WordWeight("fruit"), 0.00001);
-            Assert.AreEqual(1d, tf.WordWeight("fly"), 0.00001);
-            Assert.That(tf.WordWeight("nonexisting"), Is.EqualTo(0));
+            Assert.AreEqual(0.33333333, tf.TermWeight("fruit"), 0.00001);
+            Assert.AreEqual(1d, tf.TermWeight("fly"), 0.00001);
+            Assert.That(tf.TermWeight("nonexisting"), Is.EqualTo(0));
         }
     }
 }

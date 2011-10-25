@@ -1,6 +1,6 @@
 ﻿namespace Pl.Sepio.Tfidf
 {
-    public class Tf
+    public class Tf : ITermWeightRepresentation
     {
         private readonly BagOfWords _bagOfWords;
         private readonly uint _maxDivider = 1;
@@ -18,7 +18,7 @@
             }
         }
 
-        public double WordWeight(string word)
+        public double TermWeight(string word)
         {
             return _bagOfWords.Count(word)/(double) _maxDivider;
         }

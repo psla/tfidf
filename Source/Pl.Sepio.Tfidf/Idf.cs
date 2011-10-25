@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Pl.Sepio.Tfidf
 {
-    public class Idf
+    public class Idf : IIdf
     {
         private readonly List<BagOfWords> _documents;
 
@@ -13,10 +13,10 @@ namespace Pl.Sepio.Tfidf
             _documents = new List<BagOfWords>(documents);
         }
 
-        public double Value(string word)
+        public double Value(string term)
         {
-            if (word == null) throw new ArgumentNullException("word");
-            var documentsMatching = _documents.Where(x => x.Count(word) > 0).Count();
+            if (term == null) throw new ArgumentNullException("term");
+            var documentsMatching = _documents.Where(x => x.Count(term) > 0).Count();
             return Math.Log(_documents.Count/(double)documentsMatching);
         }
     }
