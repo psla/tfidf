@@ -11,7 +11,7 @@ namespace Pl.Sepio.Tfidf.Tests
         [Test]
         public void RetrievesAllDocuments()
         {
-            var documentsProvider = new DocumentsProvider();
+            var documentsProvider = new DocumentsProvider(new NullStemmer());
             var documents = documentsProvider.Read(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"res\Documents.txt")).ToList();
 
             Assert.That(documents.Count, Is.EqualTo(3));
@@ -20,7 +20,7 @@ namespace Pl.Sepio.Tfidf.Tests
         [Test]
         public void SetsUpProperTitlesOfDocuments()
         {
-            var documentsProvider = new DocumentsProvider();
+            var documentsProvider = new DocumentsProvider(new NullStemmer());
             var documents = documentsProvider.Read(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"res\Documents.txt")).ToList();
 
             Assert.That(documents[0].Title, Is.EqualTo("This is a title"));
@@ -31,7 +31,7 @@ namespace Pl.Sepio.Tfidf.Tests
         [Test]
         public void SetsUpProperContent()
         {
-            var documentsProvider = new DocumentsProvider();
+            var documentsProvider = new DocumentsProvider(new NullStemmer());
             var documents = documentsProvider.Read(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"res\Documents.txt")).ToList();
 
             Assert.That(documents[0].Content, Is.EqualTo("This is content of the document"));
@@ -42,7 +42,7 @@ namespace Pl.Sepio.Tfidf.Tests
         [Test]
         public void WordsTakesIntoAccountTitleAsWell()
         {
-            var documentsProvider = new DocumentsProvider();
+            var documentsProvider = new DocumentsProvider(new NullStemmer());
             var documents = documentsProvider.Read(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"res\Documents.txt")).ToList();
 
             CollectionAssert.Contains(documents[0].Words, "title");

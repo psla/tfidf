@@ -7,6 +7,13 @@ namespace Pl.Sepio.Tfidf.Providers
 {
     public class DocumentsProvider
     {
+        private readonly IStemmerInterface _stemmer;
+
+        public DocumentsProvider(IStemmerInterface stemmer)
+        {
+            _stemmer = stemmer;
+        }
+
         public IEnumerable<ExtendedDocument> Read(string documentsPath)
         {
             if (!File.Exists(documentsPath))
@@ -29,12 +36,18 @@ namespace Pl.Sepio.Tfidf.Providers
                     document = new List<string>();
                 }
             }
-            if(document.Count > 0 )
+            if (document.Count > 0)
             {
                 documents.Add(document);
             }
 
-            return documents.Select(x => new ExtendedDocument(x[0], string.Join(" ", x.Skip(1)), PlainDocumentsExtractor.Extract(string.Join(" ", x).ToLowerInvariant())));
+            return
+                documents.Select(
+                    x =>
+                    new ExtendedDocument(x[0], string.Join(" ", x.Skip(1)),
+                                         DocumentStemmer.StemDocument(
+                                             PlainDocumentsExtractor.Extract(string.Join(" ", x).ToLowerInvariant()),
+                                             _stemmer)));
         }
     }
 }

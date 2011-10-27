@@ -20,13 +20,13 @@
       <Item value="IStemmerInterface`0" priority="4" />
       <Item value="stemmerInterface" priority="2" />
       <Item value="word" priority="2" />
-      <Item value="return" priority="11" />
+      <Item value="return" priority="12" />
       <Item value="Document" priority="3" />
       <Item value="private" priority="4" />
       <Item value="class" priority="1" />
       <Item value="s" priority="1" />
       <Item value="Test" priority="7" />
-      <Item value="void" priority="14" />
+      <Item value="void" priority="15" />
       <Item value="PairwiseAttribute`0" priority="2" />
       <Item value="var" priority="30" />
       <Item value="DocumentStemmer`0" priority="3" />
@@ -51,7 +51,7 @@
       <Item value="tfIdf" priority="2" />
       <Item value="ctor" priority="6" />
       <Item value="double" priority="3" />
-      <Item value="SearchResult`0" priority="3" />
+      <Item value="SearchResult`0" priority="5" />
       <Item value="result" priority="0" />
       <Item value="Idf`0" priority="1" />
       <Item value="documents" priority="8" />
@@ -104,7 +104,7 @@
       <Item value="SearchResult" priority="0" />
       <Item value="tfIdfWithDocument" priority="0" />
       <Item value="filename" priority="4" />
-      <Item value="if" priority="4" />
+      <Item value="if" priority="5" />
       <Item value="File" priority="2" />
       <Item value="File`0" priority="2" />
       <Item value="throw" priority="1" />
@@ -149,6 +149,13 @@
       <Item value="ResultDocuments" priority="1" />
       <Item value="Query" priority="1" />
       <Item value="searchResult" priority="1" />
+      <Item value="override" priority="0" />
+      <Item value="SearchResults" priority="2" />
+      <Item value="Window`0" priority="0" />
+      <Item value="StackPanel`0" priority="0" />
+      <Item value="BindingListCollectionView`0" priority="0" />
+      <Item value="searchResultTemplate" priority="0" />
+      <Item value="documentsMatching" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:Pl.Sepio.Tfidf.Document">
       <Item value="Words" priority="4" />
@@ -166,6 +173,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="Length" priority="0" />
+      <Item value="ToLowerInvariant`0" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Int32">
       <Item value="ToString`0" priority="1" />
@@ -197,7 +205,7 @@
       <Item value="Contains`0" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
-      <Item value="ToList`1" priority="1" />
+      <Item value="ToList`1" priority="2" />
       <Item value="Select`2" priority="3" />
       <Item value="FirstOrDefault`1" priority="0" />
       <Item value="Equals`0" priority="0" />
@@ -290,71 +298,45 @@
     <ItemStatistics item="Qualified:System.Collections.ObjectModel.ObservableCollection`1">
       <Item value="Add`0" priority="0" />
     </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Window">
+      <Item value="Resources" priority="0" />
+    </ItemStatistics>
   </CompletionStatisticsManager>
   <RecentFiles>
     <RecentFiles>
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:SearchResult.cs" caret="286" fromTop="7" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Tf.cs" caret="27" fromTop="1" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:IdfTests.cs" caret="1014" fromTop="22" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TermsCollection.cs" caret="426" fromTop="17" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:IIdf.cs" caret="93" fromTop="4" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Idf.cs" caret="0" fromTop="0" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:ITermWeightRepresentation.cs" caret="105" fromTop="4" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TfIdfMeasure.cs" caret="1036" fromTop="25" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:Readme.txt" caret="63" fromTop="1" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DistanceCalculator.cs" caret="522" fromTop="17" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DistanceTests.cs" caret="617" fromTop="14" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:ProbabilityMatrixTests.cs" caret="1459" fromTop="27" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:ProbabilityMatrixCalculator.cs" caret="982" fromTop="21" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:TfIdfIntegration.cs" caret="766" fromTop="18" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentStemmerTests.cs" caret="522" fromTop="16" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:NullStemmer.cs" caret="177" fromTop="8" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:PorterStemmer.cs" caret="2797" fromTop="24" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:IStemmerInterface.cs" caret="50" fromTop="2" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:DocumentStemmer.cs" caret="119" fromTop="6" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:TermsProvider.cs" caret="0" fromTop="0" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Document.cs" caret="147" fromTop="7" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/d:res/f:Documents.txt" caret="41" fromTop="3" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:ExtendedDocument.cs" caret="286" fromTop="7" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="535" fromTop="17" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TfIdfIndexer.cs" caret="1093" fromTop="28" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TfIdf.cs" caret="423" fromTop="12" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="863" fromTop="28" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="1" fromTop="0" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="442" fromTop="21" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1813" fromTop="45" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="319" fromTop="8" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="481" fromTop="22" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/d:res/f:documents.txt/l:..?..?..?data?documents.txt" caret="0" fromTop="0" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/d:res/f:keywords.txt/l:..?..?..?data?keywords.txt" caret="122" fromTop="16" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:SearchViewModel.xaml.cs" caret="528" fromTop="5" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:App.xaml" caret="0" fromTop="0" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="516" fromTop="10" />
     </RecentFiles>
     <RecentEdits>
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:TermsProvider.cs" caret="0" fromTop="0" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/d:res/f:Documents.txt" caret="129" fromTop="9" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1215" fromTop="4" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1183" fromTop="16" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="724" fromTop="22" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="832" fromTop="22" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Document.cs" caret="337" fromTop="12" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:Document.cs" caret="147" fromTop="7" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="207" fromTop="8" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1182" fromTop="23" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:ExtendedDocument.cs" caret="263" fromTop="7" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/d:res/f:Documents.txt" caret="24" fromTop="1" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="2038" fromTop="36" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/d:Providers/f:DocumentsProvider.cs" caret="1157" fromTop="23" />
-      <File id="653BAEBA-3E40-4FC4-B0E5-8DD0F2DAC968/f:DocumentsProviderTests.cs" caret="1103" fromTop="30" />
-      <File id="CFB7B38D-CB31-4282-A052-9F2FFB2EC879/f:TfIdfIndexer.cs" caret="1093" fromTop="28" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="779" fromTop="13" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="24" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="482" fromTop="24" />
       <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="216" fromTop="9" />
       <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="354" fromTop="16" />
       <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:RelayCommand.cs" caret="442" fromTop="21" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="34" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="31" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="34" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="10" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1848" fromTop="27" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="717" fromTop="11" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1316" fromTop="22" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1627" fromTop="31" />
-      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="1807" fromTop="45" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="482" fromTop="34" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="482" fromTop="31" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="482" fromTop="34" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="482" fromTop="10" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="482" fromTop="27" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="481" fromTop="22" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="481" fromTop="17" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="300" fromTop="15" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="461" fromTop="21" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="481" fromTop="12" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="481" fromTop="44" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml.cs" caret="481" fromTop="22" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:SearchViewModel.xaml.cs" caret="602" fromTop="16" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:SearchViewModel.xaml.cs" caret="373" fromTop="12" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:SearchViewModel.xaml.cs" caret="1103" fromTop="27" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="295" fromTop="0" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="514" fromTop="7" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:MainWindow.xaml" caret="1139" fromTop="10" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:SearchViewModel.xaml.cs" caret="1397" fromTop="26" />
+      <File id="82542436-0BBE-48C4-AC38-AF4E382BA7B8/f:App.xaml" caret="0" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
