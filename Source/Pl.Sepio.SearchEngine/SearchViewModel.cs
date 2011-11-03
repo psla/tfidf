@@ -41,6 +41,8 @@ namespace Pl.Sepio.SearchEngine
         }
 
         private string _documentsFilePath;
+        private DocumentPurer _documentPurer;
+
         public string DocumentsFilePath
         {
             get { return _documentsFilePath; }
@@ -62,6 +64,7 @@ namespace Pl.Sepio.SearchEngine
 
         private void InitializeSearcherWithStemmer()
         {
+
             _termsCollection =
                 new TermsProvider(ProvideStemmer())
                     .LoadFile(
@@ -69,7 +72,9 @@ namespace Pl.Sepio.SearchEngine
                             AppDomain.CurrentDomain.BaseDirectory,
                             KeywordsFilePath));
 
-            IEnumerable<ExtendedDocument> documents = new DocumentsProvider(ProvideStemmer()).Read(Path.Combine(
+            _documentPurer = new DocumentPurer(_termsCollection);
+
+            IEnumerable<ExtendedDocument> documents = new DocumentsProvider(ProvideStemmer(), _documentPurer).Read(Path.Combine(
                 AppDomain.CurrentDomain.BaseDirectory,
                 DocumentsFilePath));
 
@@ -79,8 +84,9 @@ namespace Pl.Sepio.SearchEngine
         private void PerformSearch()
         {
             SearchResults.Clear();
-            Document query = PlainDocumentsExtractor.Extract(Query.ToLowerInvariant());
-            Document stemmedQuery = DocumentStemmer.StemDocument(query, ProvideStemmer());
+            var query = PlainDocumentsExtractor.Extract(Query.ToLowerInvariant());
+            var stemmedQuery = DocumentStemmer.StemDocument(query, ProvideStemmer());
+            var puredStemmedQuery = _documentPurer.PureDocument(stemmedQuery);
             List<SearchResult> documents = _tfIdfIndexer.Search(stemmedQuery).ToList();
             foreach (SearchResult searchResult in documents)
             {

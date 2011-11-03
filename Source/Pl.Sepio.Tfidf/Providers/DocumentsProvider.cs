@@ -8,9 +8,15 @@ namespace Pl.Sepio.Tfidf.Providers
     public class DocumentsProvider
     {
         private readonly IStemmerInterface _stemmer;
+        private readonly IDocumentPurer _documentPurer;
 
-        public DocumentsProvider(IStemmerInterface stemmer)
+        public DocumentsProvider(IStemmerInterface stemmer) : this(stemmer, new NullDocumentPurer())
         {
+            
+        }
+        public DocumentsProvider(IStemmerInterface stemmer, IDocumentPurer documentPurer) 
+        {
+            _documentPurer = documentPurer;
             _stemmer = stemmer;
         }
 
@@ -45,9 +51,10 @@ namespace Pl.Sepio.Tfidf.Providers
                 documents.Select(
                     x =>
                     new ExtendedDocument(x[0], string.Join(" ", x.Skip(1)),
+                                        _documentPurer.PureDocument(
                                          DocumentStemmer.StemDocument(
                                              PlainDocumentsExtractor.Extract(string.Join(" ", x).ToLowerInvariant()),
-                                             _stemmer)));
+                                             _stemmer))));
         }
     }
 }

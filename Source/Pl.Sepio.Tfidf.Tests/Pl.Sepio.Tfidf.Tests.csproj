@@ -55,6 +55,7 @@
     <Compile Include="BagOfWordsTests.cs" />
     <Compile Include="DistanceTests.cs" />
     <Compile Include="DocumentExtractorTests.cs" />
+    <Compile Include="DocumentPurerTests.cs" />
     <Compile Include="DocumentsProviderTests.cs" />
     <Compile Include="DocumentStemmerTests.cs" />
     <Compile Include="IdfTests.cs" />
