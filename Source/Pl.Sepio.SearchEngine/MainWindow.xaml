@@ -37,9 +37,24 @@
             <Button Content="Słowa kluczowe" Click="SelectKeywordsFile" />
             <TextBlock Text="{Binding DocumentsFilePath}"/>
             <Button Content="Dokumenty" Click="SelectDocumentsFile" />
-            
+
+            <ItemsControl ItemsSource="{Binding QueryDocument.Words}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+
             <TextBlock Text="{Binding ElementName=matchedDocuments,Path=SelectedItem.Document.Title}" FontWeight="Bold"/>
             <TextBlock Text="{Binding ElementName=matchedDocuments,Path=SelectedItem.Document.Content}" TextWrapping="Wrap"/>
+            <ItemsControl ItemsSource="{Binding ElementName=matchedDocuments,Path=SelectedItem.Document.Words}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
         </StackPanel>
 	</Grid>
 </Window>

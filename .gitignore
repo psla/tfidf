@@ -5,4 +5,5 @@
 bin/
 _(r|R)e(s|S)harper*/
 *resharper*
+Source/texput.log
 obj

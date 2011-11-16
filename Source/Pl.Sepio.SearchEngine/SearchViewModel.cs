@@ -87,11 +87,19 @@ namespace Pl.Sepio.SearchEngine
             var query = PlainDocumentsExtractor.Extract(Query.ToLowerInvariant());
             var stemmedQuery = DocumentStemmer.StemDocument(query, ProvideStemmer());
             var puredStemmedQuery = _documentPurer.PureDocument(stemmedQuery);
-            List<SearchResult> documents = _tfIdfIndexer.Search(stemmedQuery).ToList();
+            QueryDocument = stemmedQuery;
+            List<SearchResult> documents = _tfIdfIndexer.Search(QueryDocument).ToList();
             foreach (SearchResult searchResult in documents)
             {
                 SearchResults.Add(searchResult);
             }
+        }
+
+        private Document _queryDocument;
+        public Document QueryDocument
+        {
+            get { return _queryDocument; }
+            set { _queryDocument = value; InvokePropertyChanged("QueryDocument");}
         }
 
         private IStemmerInterface ProvideStemmer()
